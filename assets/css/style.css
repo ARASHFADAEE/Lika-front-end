@@ -1,0 +1,50 @@
+
+
+@font-face {
+  font-family: 'IRANYekan-var';
+  src: url('./assets/fonts/IRANYekanXVF.woff')
+    format('truetype-variations');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANYekan-var';
+  src: url('./assets/fonts/IRANYekanXVF.woff2')
+    format('truetype-variations');
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none !important;
+  color: unset;
+}
+
+p,
+figure {
+  margin-bottom: 0;
+}
+
+:root {
+  --IRANYekanXV-font-family: 'IRANYekan-var';
+
+}
+
+body {
+  font-family: var(--IRANYekanXV-font-family);
+  font-variation-settings: 'DOTS' 3.29;
+}
