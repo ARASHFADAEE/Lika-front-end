@@ -2,16 +2,18 @@
 
 @font-face {
   font-family: 'IRANYekan-var';
-  src: url('./assets/fonts/IRANYekanXVF.woff')
+  src: url('../../assets/fonts/IRANYekanXVF.woff')
     format('truetype-variations');
   font-display: swap;
+  font-variation-settings: "wght" 400, "dots" 1
 }
 
 @font-face {
   font-family: 'IRANYekan-var';
-  src: url('./assets/fonts/IRANYekanXVF.woff2')
+  src: url('../../assets/fonts/IRANYekanXVF.woff2')
     format('truetype-variations');
   font-display: swap;
+  font-variation-settings: "wght" 400, "dots" 1
 }
 
 *,
@@ -51,5 +53,4 @@ figure {
 
 body {
   font-family: var(--IRANYekanXV-font-family);
-  font-variation-settings: 'DOTS' 3.29;
 }
