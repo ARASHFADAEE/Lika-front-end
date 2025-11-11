@@ -41,7 +41,12 @@ figure {
 
 :root {
   --IRANYekanXV-font-family: 'IRANYekan-var';
-
+  --text-color:#292929;
+  --Sec-text-color:#828282;
+  --primary-color:#F58634;
+  --Secondary-color:#FFD49D;
+  --Stroke-color:#EEEEEE;
+  --BG-color:#FAF6F3;
 }
 
 body {
