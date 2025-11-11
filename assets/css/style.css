@@ -54,3 +54,84 @@ figure {
 body {
   font-family: var(--IRANYekanXV-font-family);
 }
+
+
+.container{
+    width: 1512px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* start header section */
+header.heaeder-box {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 136px;
+    gap: auto;
+}
+
+
+
+/* menu style css */
+
+.menu-header .nav-header ul {
+    list-style: none;         /* حذف نقطه‌های پیش‌فرض */
+    padding: 0;
+    margin: 0;
+    display: flex;            /* این خط باعث می‌شه کنار هم بیان */
+    gap: 32px;                /* فاصله بین آیتم‌ها - دلخواه */
+    justify-content: center; /* وسط‌چین کردن منو */
+}
+
+.menu-header .nav-header ul li {
+    /* اگر خواستی لینک‌ها هم استایل بهتری داشته باشن */
+}
+
+.menu-header .nav-header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+.menu-header .nav-header ul li a:hover {
+    color: #007bff;
+}
+
+
+.megamenu::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-color: currentColor; /* رنگ آیکون همون رنگ متن میشه */
+    -webkit-mask: url('../img/header/chevron-down.svg') no-repeat center;
+    mask: url('../img/header/chevron-down.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.action-btn {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.cart-icon{
+    border: var(--Stroke-color) solid 1px ;
+    border-radius: 52px;
+    padding:14px 24px 14px 24px ;
+    margin-right: 16px;
+}
